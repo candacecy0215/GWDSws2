@@ -28,6 +28,18 @@ ul{
     flex-direction:row;
     justify-content:flex-start;
 }
+.push {
+   margin-left: auto; 
+}
+li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    margin:0px 3px;
+    border: 1px solid limegreen;
+    border-radius:10px;
+    background-color: aliceblue;
+}
+
 
 
 /* section one flex grow and shrink */
@@ -72,6 +84,9 @@ ul{
 .section-two {
     background-color: orangered;
     height: 700px;
+    display:flex;
+    align-items:center;  
+    justify-content: center;
 
 }
 
@@ -80,7 +95,11 @@ ul{
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items:center;  
+    justify-content: center;
 }
 
 iframe { 
